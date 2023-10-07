@@ -9,7 +9,10 @@ import close from "./close.svg";
 import back from "./back.png";
 import webdev from "./webdev.png";
 import devops from "./devops.png";
-import opensource from "./opensource.png"
+import opensource from "./opensource.png";
+import insta from "./insta.png";
+import linkedin from "./linkedin.png";
+import CV from "./CV.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -114,4 +117,7 @@ export {
   webdev,
   devops,
   opensource,
+  insta,
+  linkedin,
+  CV,
 };

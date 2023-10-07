@@ -49,6 +49,9 @@ import {
   devops,
   opensource,
   webdev,
+  linkedin,
+  insta,
+  CV,
 } from "../assets";
 
  
@@ -64,6 +67,14 @@ import {
     {
       id: "projects",
       title: "Projects",
+    },
+    {
+      id: "socials",
+      title: "Resume",
+    },
+    {
+      id: "social",
+      title: "Socials",
     },
     {
       id: "contact",
@@ -88,6 +99,30 @@ import {
     {
       title: "OpenSource Contributor",
       icon: opensource,
+    },
+  ];
+
+  const socials = [
+    {
+      title: "Resume",
+      icon:CV,
+      source_code_link:"https://drive.google.com/file/d/1TvrR4-c8FXkaq0rbCKNxX4RvDosyB-QE/view?usp=sharing",
+    },
+    {
+      title: "Github",
+      icon: github,
+      source_code_link:"https://github.com/yo-404",
+    },
+    {
+      title: "LinkedIn",
+      icon: linkedin,
+      source_code_link:"https://www.linkedin.com/in/yogeshyadav2801/",
+    },
+
+    {
+      title: "Instagram",
+      icon: insta,
+      source_code_link:"https://github.com/yo-404",
     },
   ];
   
@@ -272,7 +307,7 @@ import {
     {
       name: "Booking_PRX (In progress)",
       description:
-        "Booking pRX is an innovative and user-friendly online platform designed to streamline the process of booking turf facilities for sports, events, and recreational activities. This project aims to provide a comprehensive and efficient solution for individuals, sports enthusiasts, and event organizers who require easy access to turf facilities. ",
+        "Booking pRX is an innovative and user-friendly online platform designed to streamline the process of booking turf facilities for sports, events, and recreational activities. ",
       tags: [
         {
           name: "Go",
@@ -343,7 +378,7 @@ import {
       {
         name: "TUNELIVES.COM",
         description:
-          "Blog website with well managed SEO consisting of more than 35k impressions",
+          "A fully resposive blog site with AMP and litespeed cache loading .Blog website with well managed SEO consisting of more than 35k impressions.",
         tags: [
           {
             name: "WORDPRESS",
@@ -488,7 +523,7 @@ import {
       {
         name: "HOSPITAL MANAGEMENT SYSTEM",
         description:
-          " Web Based Application for OPD and appointment solution",
+          " Web Based Application for OPD and appointment solution. Seperate login for patient and doctors",
             tags: [
           {
             name: "PHP",
@@ -531,7 +566,7 @@ import {
       {
         name: "MYFITNESS - UI/UX",
         description:
-          " A health app demo ui created on figma ",
+          " A health app UI wireframe created on figma ",
             tags: [
           {
             name: "Figma",
@@ -545,4 +580,4 @@ import {
   
   ];
   
-  export { services, technologies, experiences, projects };
+  export { services, technologies, experiences, projects, socials };

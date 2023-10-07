@@ -24,7 +24,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           alt='web-development'
-          className='w-16 h-16 object-contain'
+          className='w-24 h-24 object-contain'
         />
 
         <h3 className='text-white text-[20px] font-bold text-center'>
@@ -41,7 +41,7 @@ const About = () => {
     <>
     <motion.div variants={textVariant()}>
       <p className={styles.sectionSubText}>Introduction</p>
-      <h2 className={styles.sectionHeadText}>Overview.</h2>
+      <h2 className={styles.sectionHeadText}>Overview</h2>
     </motion.div>
 
     <motion.p
@@ -59,6 +59,19 @@ const About = () => {
         <ServiceCard key={service.title} index={index} {...service} />
       ))}
     </div>
+    <motion.div variants={textVariant()}>
+      <p className='mt-16 text-white text-[20px] text-left'>In my Free time?</p>
+    </motion.div>
+    <motion.p
+      variants={fadeIn("", "", 0.1, 1)}
+      className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+    >
+      🍁 I love football ⚽ and have been playing it with friends since school time.
+      <br/><br/>🍁 I also like playing multiplayer FPS games. Why? Due to the intricate strategies, but that's not all. It also promotes teamwork, boosted my self reliance and improved my social interaction capacity.
+      <br/><br/>🍁 I find immense joy and fascination in immersing myself in the world of anime. The intricate storytelling, breathtaking animation, and the profound emotions that emanate from the screen all conspire to create an enchanting experience that resonates deep within my soul 💕. 
+      
+    </motion.p>    
+
   </>
   );
 };
