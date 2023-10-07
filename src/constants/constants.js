@@ -69,7 +69,7 @@ import {
       title: "Projects",
     },
     {
-      id: "socials",
+      id: "social",
       title: "Resume",
     },
     {
@@ -122,7 +122,7 @@ import {
     {
       title: "Instagram",
       icon: insta,
-      source_code_link:"https://github.com/yo-404",
+      source_code_link:"https://www.instagram.com/_y0g3sh_/?igshid=zdc4odbmnjlmnq%3D%3D",
     },
   ];
   
