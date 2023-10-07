@@ -64,4 +64,4 @@ const Socials = () => {
   );
 };
 
-export default SectionWrapper(Socials,"socials");
+export default SectionWrapper(Socials,"social");
