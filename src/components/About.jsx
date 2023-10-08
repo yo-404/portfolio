@@ -49,9 +49,9 @@ const About = () => {
       className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
     >
       I'm a software developer with experience in Web Developement, and have worked with frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
+      Tailwind CSS. I'm a quick learner and collaborate closely with clients to
       create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. I also contribute to open source projects on Github .Let's work together to bring your ideas to life!
+      real-world problems. I also contribute to open source projects on Github. Let's work together to bring your ideas to life!
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
